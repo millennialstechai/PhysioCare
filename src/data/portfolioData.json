@@ -1,0 +1,95 @@
+{
+  "physiotherapist": {
+    "name": "Dr. Aryan Sharma",
+    "qualification": "BPT (Bachelor of Physiotherapy)",
+    "experience": "200+ Patients Treated",
+    "location": "Ahmedabad, Gujarat",
+    "profession": "Consultant Physiotherapist",
+    "tagline": "Helping You Move Better, Live Stronger",
+    "about": "Dedicated and compassionate Physiotherapist with a focus on holistic patient recovery. With a Bachelor of Physiotherapy and experience treating over 200 patients in Ahmedabad, I specialize in personalized treatment plans that combine modern therapy techniques with empathetic care.",
+    "stats": [
+      { "label": "Patients Treated", "value": "200+" },
+      { "label": "Years Experience", "value": "5+" },
+      { "label": "Rehabilitation", "value": "100%" },
+      { "label": "Based In", "value": "Ahmedabad" }
+    ]
+  },
+  "services": [
+    {
+      "id": "ortho",
+      "title": "Orthopedic Physiotherapy",
+      "description": "Comprehensive treatment for bone, joint, ligament, tendon, and muscle disorders to restore full mobility.",
+      "icon": "Activity"
+    },
+    {
+      "id": "sports",
+      "title": "Sports Injury Rehab",
+      "description": "Advanced rehabilitation protocols for athletes to ensure safe and quick return to peak performance.",
+      "icon": "Trophy"
+    },
+    {
+      "id": "post-surgery",
+      "title": "Post Surgery Rehabilitation",
+      "description": "Guided recovery programs following orthopedic surgeries to regain strength and flexibility.",
+      "icon": "Hospital"
+    },
+    {
+      "id": "back-pain",
+      "title": "Back & Neck Therapy",
+      "description": "Specialized manual therapy and posture correction for chronic spinal alignment issues.",
+      "icon": "Stethoscope"
+    },
+    {
+      "id": "mobility",
+      "title": "Joint Mobility Therapy",
+      "description": "Manual mobilization techniques aimed at improving range of motion and reducing stiffness.",
+      "icon": "Move"
+    },
+    {
+      "id": "exercise",
+      "title": "Exercise Therapy",
+      "description": "Tailored exercise regimes focused on core stability, muscle strengthening, and endurance.",
+      "icon": "Dumbbell"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Rajesh Mehta",
+      "text": "Dr. Aryan's treatment for my sports injury was excellent. I was back on the field sooner than expected. Highly professional!",
+      "role": "Athlete",
+      "rating": 5
+    },
+    {
+      "name": "Sita Patel",
+      "text": "The post-surgery rehab I received was life-changing. The personalized care and attention to detail are what set this clinic apart.",
+      "role": "Patient",
+      "rating": 5
+    },
+    {
+      "name": "Amit Shah",
+      "text": "Highly recommended for chronic back pain. The posture correction tips were very helpful and the exercises are easy to follow.",
+      "role": "IT Professional",
+      "rating": 5
+    }
+  ],
+  "whyChooseMe": [
+    {
+      "title": "Personalized Treatment",
+      "description": "Every patient receives a unique care plan tailored specifically to their condition and goals."
+    },
+    {
+      "title": "Modern Techniques",
+      "description": "We utilize the latest evidence-based physiotherapy methods and equipment for faster recovery."
+    },
+    {
+      "title": "Goal-Oriented",
+      "description": "Our focus is not just on reducing pain, but on returning you to your peak physical performance."
+    }
+  ],
+  "contact": {
+    "email": "contact@physiocareahm.com",
+    "phone": "+91 98765 43210",
+    "address": "402, Medical Plaza, Navrangpura, Ahmedabad - 380009",
+    "hours": "Mon - Sat: 9:00 AM - 7:00 PM"
+  }
+}

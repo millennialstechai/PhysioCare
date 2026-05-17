@@ -1,0 +1,8 @@
+{
+  "name": "PhysioCare Ahmedabad",
+  "description": "Professional Physiotherapy Portfolio for Dr. Aryan Sharma, BPT - Specialized Rehabilitation and Wellness in Ahmedabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
