@@ -28,23 +28,30 @@ export default function Services() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="medical-card p-8 group"
+                className="medical-card p-10 group relative overflow-hidden"
               >
-                <div className="w-14 h-14 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6 transition-colors group-hover:bg-brand-600 group-hover:text-white">
-                  <Icon size={32} />
+                <div className="absolute top-0 right-0 w-24 h-24 bg-brand-50/50 rounded-bl-[100px] -z-0 transition-all group-hover:w-full group-hover:h-full group-hover:rounded-none group-hover:bg-brand-600/5" />
+                
+                <div className="relative z-10">
+                  <div className="w-14 h-14 bg-brand-600 text-white rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-brand-200">
+                    <Icon size={28} />
+                  </div>
+                  <div className="text-[10px] font-bold text-brand-600 uppercase tracking-[0.2em] mb-2">
+                    {service.subtitle}
+                  </div>
+                  <h4 className="text-2xl font-display font-bold text-slate-900 mb-3">
+                    {service.title}
+                  </h4>
+                  <p className="text-slate-600 leading-relaxed mb-6">
+                    {service.description}
+                  </p>
+                  <a 
+                    href="#contact" 
+                    className="inline-flex items-center gap-2 text-brand-600 font-bold text-sm tracking-wide uppercase hover:gap-3 transition-all"
+                  >
+                    Discuss Case <LucideIcons.ArrowRight size={16} />
+                  </a>
                 </div>
-                <h4 className="text-xl font-display font-bold text-slate-900 mb-3">
-                  {service.title}
-                </h4>
-                <p className="text-slate-600 leading-relaxed mb-6">
-                  {service.description}
-                </p>
-                <a 
-                  href="#contact" 
-                  className="inline-flex items-center gap-2 text-brand-600 font-bold hover:gap-3 transition-all"
-                >
-                  Learn More <LucideIcons.ArrowRight size={18} />
-                </a>
               </motion.div>
             );
           })}

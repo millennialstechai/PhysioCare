@@ -27,14 +27,19 @@ export default function Navbar() {
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex items-center gap-2"
+            className="flex items-center gap-3"
           >
-            <div className="bg-brand-600 p-2 rounded-lg text-white">
-              <Activity size={24} />
+            <div className="bg-brand-600 p-2 rounded-xl text-white shadow-lg shadow-brand-200">
+              <Activity size={20} />
             </div>
-            <span className={`text-xl font-display font-bold tracking-tight ${scrolled ? 'text-slate-900' : 'text-slate-900'}`}>
-              Physio<span className="text-brand-600">Care</span>
-            </span>
+            <div className="flex flex-col">
+              <span className="text-lg font-display font-bold leading-none text-slate-900">
+                Dr. Krisha Patel
+              </span>
+              <span className="text-[10px] font-bold text-brand-600 uppercase tracking-widest mt-1">
+                Consultant Physiotherapist
+              </span>
+            </div>
           </motion.div>
 
           {/* Desktop Nav */}

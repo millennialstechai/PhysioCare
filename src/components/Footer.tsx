@@ -11,16 +11,17 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
-            <div className="flex items-center gap-2 text-white">
-              <div className="bg-brand-600 p-2 rounded-lg">
+            <div className="flex items-center gap-3 text-white">
+              <div className="bg-brand-600 p-2 rounded-xl">
                 <Activity size={24} />
               </div>
-              <span className="text-xl font-display font-bold">
-                Physio<span className="text-brand-500">Care</span>
-              </span>
+              <div className="flex flex-col">
+                <span className="text-lg font-display font-bold leading-none">Dr. Krisha Patel</span>
+                <span className="text-[10px] font-bold text-brand-500 uppercase tracking-widest mt-1">Physiotherapy Excellence</span>
+              </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Professional physiotherapy services dedicated to restoring your mobility, strength, and overall wellness through evidence-based care.
+              Dr. Krisha Patel is a consultant physiotherapist specializing in advanced manual therapy and sports rehabilitation, dedicated to helping residents of Ahmedabad live pain-free.
             </p>
             <div className="flex gap-4">
               {[Instagram, Facebook, Linkedin].map((Icon, idx) => (

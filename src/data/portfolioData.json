@@ -1,56 +1,73 @@
 {
   "physiotherapist": {
-    "name": "Dr. Aryan Sharma",
-    "qualification": "BPT (Bachelor of Physiotherapy)",
-    "experience": "200+ Patients Treated",
+    "name": "Dr. Krisha Patel",
+    "qualification": "BPT (Bachelor of Physiotherapy) | MPT (Orthopedics)",
+    "experience": "200+ Successfully Treated Patients",
     "location": "Ahmedabad, Gujarat",
     "profession": "Consultant Physiotherapist",
-    "tagline": "Helping You Move Better, Live Stronger",
-    "about": "Dedicated and compassionate Physiotherapist with a focus on holistic patient recovery. With a Bachelor of Physiotherapy and experience treating over 200 patients in Ahmedabad, I specialize in personalized treatment plans that combine modern therapy techniques with empathetic care.",
+    "tagline": "Restoring Your Movement, Enhancing Your Life",
+    "about": "My mission is to provide high-quality, evidence-based physiotherapy that empowers patients to take control of their health. With a specialization in Orthopedic manual therapy and over 5 years of clinical experience in Ahmedabad, I believe in a holistic approach that doesn't just treat symptoms, but addresses the root cause of dysfunction.",
+    "philosophy": "I believe every patient is unique. My treatment philosophy combines advanced manual therapy techniques with modern rehabilitation technology and personalized exercise medicine to ensure long-term recovery and performance optimization.",
     "stats": [
-      { "label": "Patients Treated", "value": "200+" },
-      { "label": "Years Experience", "value": "5+" },
-      { "label": "Rehabilitation", "value": "100%" },
-      { "label": "Based In", "value": "Ahmedabad" }
+      { "label": "Happy Patients", "value": "200+" },
+      { "label": "Clinical Hours", "value": "8000+" },
+      { "label": "Specialties", "value": "08" },
+      { "label": "Success Rate", "value": "99%" }
     ]
   },
   "services": [
     {
       "id": "ortho",
       "title": "Orthopedic Physiotherapy",
-      "description": "Comprehensive treatment for bone, joint, ligament, tendon, and muscle disorders to restore full mobility.",
+      "subtitle": "Bone & Joint Care",
+      "description": "Expert management of fractures, osteoarthritis, and joint replacements using manual mobilization and strengthening.",
       "icon": "Activity"
     },
     {
       "id": "sports",
       "title": "Sports Injury Rehab",
-      "description": "Advanced rehabilitation protocols for athletes to ensure safe and quick return to peak performance.",
+      "subtitle": "Performance Recovery",
+      "description": "Comprehensive return-to-play protocols for ACL tears, ligament sprains, and muscle strains for professional athletes.",
       "icon": "Trophy"
     },
     {
-      "id": "post-surgery",
-      "title": "Post Surgery Rehabilitation",
-      "description": "Guided recovery programs following orthopedic surgeries to regain strength and flexibility.",
-      "icon": "Hospital"
+      "id": "neuro",
+      "title": "Neurological Rehab",
+      "subtitle": "Nerve & Brain Recovery",
+      "description": "Specialized care for Post-Stroke recovery, Parkinson's, and Spinal Cord injuries to improve balance and coordination.",
+      "icon": "Brain"
     },
     {
-      "id": "back-pain",
-      "title": "Back & Neck Therapy",
-      "description": "Specialized manual therapy and posture correction for chronic spinal alignment issues.",
-      "icon": "Stethoscope"
+      "id": "pediatric",
+      "title": "Pediatric Therapy",
+      "subtitle": "Child Developmental Care",
+      "description": "Gentle, play-based physical therapy to help children reach their developmental milestones and improve motor skills.",
+      "icon": "Baby"
     },
     {
-      "id": "mobility",
-      "title": "Joint Mobility Therapy",
-      "description": "Manual mobilization techniques aimed at improving range of motion and reducing stiffness.",
-      "icon": "Move"
+      "id": "vestibular",
+      "title": "Vestibular Rehab",
+      "subtitle": "Dizziness & Balance",
+      "description": "Evidence-based maneuvers and exercises to treat Vertigo (BPPV) and chronic dizziness issues.",
+      "icon": "Zap"
     },
     {
-      "id": "exercise",
-      "title": "Exercise Therapy",
-      "description": "Tailored exercise regimes focused on core stability, muscle strengthening, and endurance.",
-      "icon": "Dumbbell"
+      "id": "women",
+      "title": "Women's Health",
+      "subtitle": "Maternal & Pelvic Care",
+      "description": "Pre and post-natal care, pelvic floor rehabilitation, and management of osteoporosis in women.",
+      "icon": "Heart"
     }
+  ],
+  "conditions": [
+    "Slip Disc & Sciatica",
+    "Frozen Shoulder",
+    "Tennis / Golfer's Elbow",
+    "Knee Osteoarthritis",
+    "Cervical Spondylosis",
+    "Ligament Injuries (ACL/PCL)",
+    "Plantar Fasciitis",
+    "Post-Stroke Recovery"
   ],
   "testimonials": [
     {

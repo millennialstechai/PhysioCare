@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import data from '../data/portfolioData.json';
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, Activity } from 'lucide-react';
 
 export default function About() {
   const { physiotherapist } = data;
@@ -42,6 +42,15 @@ export default function About() {
             <p className="text-lg text-slate-600 leading-relaxed">
               {physiotherapist.about}
             </p>
+
+            <div className="bg-brand-50/50 p-8 rounded-[32px] border border-brand-100">
+              <h4 className="text-brand-700 font-display font-bold mb-3 flex items-center gap-2">
+                <Activity size={18} /> My Treatment Philosophy
+              </h4>
+              <p className="text-slate-700 leading-relaxed">
+                {physiotherapist.philosophy}
+              </p>
+            </div>
 
             <div className="grid grid-cols-2 gap-6 pt-4">
               {physiotherapist.stats.map((stat, idx) => (

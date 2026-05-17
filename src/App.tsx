@@ -10,6 +10,7 @@ import LoadingScreen from './components/LoadingScreen';
 
 // Lazy load sections for better performance
 const About = lazy(() => import('./components/About'));
+const Conditions = lazy(() => import('./components/Conditions'));
 const Services = lazy(() => import('./components/Services'));
 const Testimonials = lazy(() => import('./components/Testimonials'));
 const Contact = lazy(() => import('./components/Contact'));
@@ -38,6 +39,7 @@ export default function App() {
         
         <Suspense fallback={<div className="h-40" />}>
           <About />
+          <Conditions />
           <Services />
           
           {/* Transition Section */}
